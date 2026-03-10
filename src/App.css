@@ -193,6 +193,7 @@
   z-index: 2;
   padding: 0 56px;
   padding-left: 80px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,7 +207,8 @@
   text-transform: uppercase;
   color: var(--color-yellow);
   font-weight: 500;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+  margin-top: 16px;
   display: block;
 }
 

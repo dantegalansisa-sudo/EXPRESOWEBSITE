@@ -53,7 +53,7 @@ export default function HeroSection() {
 
       <motion.div className="hero__product-image" style={{ y: heroImgY, scale: heroImgScale }}>
         <motion.img
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=85"
+          src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=85"
           alt="Electrodomésticos modernos"
           className="hero__img"
           initial={{ opacity: 0, x: 80, scale: 1.05 }}
