@@ -28,9 +28,15 @@ export default function Navbar() {
     >
       <div className="navbar__inner">
         <a href="#" className="navbar__logo">
-          <span className="navbar__logo-icon">CE</span>
+          <img
+            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=200&q=80"
+            alt="Comercial El Expreso"
+            className="navbar__logo-photo"
+          />
           <div className="navbar__logo-text-wrap">
-            <span className="navbar__logo-name">EL EXPRESO</span>
+            <span className="navbar__logo-name">
+              <span className="navbar__logo-el">El</span> Expreso
+            </span>
             <span className="navbar__logo-sub">COMERCIAL</span>
           </div>
         </a>

@@ -5,9 +5,15 @@ export default function FooterSection() {
         <div className="footer__grid">
           <div className="footer__brand">
             <a href="#" className="footer__logo">
-              <span className="footer__logo-icon">CE</span>
+              <img
+                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=200&q=80"
+                alt="Comercial El Expreso"
+                className="footer__logo-photo"
+              />
               <div className="footer__logo-text-wrap">
-                <span className="footer__logo-name">EL EXPRESO</span>
+                <span className="footer__logo-name">
+                  <span className="footer__logo-el">El</span> Expreso
+                </span>
                 <span className="footer__logo-sub">COMERCIAL</span>
               </div>
             </a>
