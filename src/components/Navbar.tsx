@@ -28,17 +28,10 @@ export default function Navbar() {
     >
       <div className="navbar__inner">
         <a href="#" className="navbar__logo">
-          <img
-            src="/images/rafa-electrofacil.png"
-            alt="Rafa Electro Facil"
-            className="navbar__logo-photo"
-          />
-          <div className="navbar__logo-text-wrap">
-            <span className="navbar__logo-name">
-              <span className="navbar__logo-el">Rafa</span> Electro Facil
-            </span>
-            <span className="navbar__logo-sub">#VENDEMEJOR</span>
-          </div>
+          <span className="navbar__logo-name">
+            <span className="navbar__logo-accent">Rafa</span> Electro Facil
+          </span>
+          <span className="navbar__logo-sub">#VENDEMEJOR</span>
         </a>
 
         <div className="navbar__links">

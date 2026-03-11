@@ -30,49 +30,36 @@
 
 .navbar__logo {
   display: flex;
-  align-items: center;
-  gap: 14px;
+  align-items: baseline;
+  gap: 0;
+  flex-wrap: wrap;
   text-decoration: none;
-  position: relative;
-}
-
-.navbar__logo-photo {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2.5px solid var(--color-yellow);
-  flex-shrink: 0;
-}
-
-.navbar__logo-text-wrap {
-  display: flex;
-  flex-direction: column;
   position: relative;
 }
 
 .navbar__logo-name {
   font-family: var(--font-display);
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 900;
   color: var(--color-text);
-  line-height: 1.1;
-  letter-spacing: -0.5px;
+  line-height: 1;
 }
 
-.navbar__logo-el {
+.navbar__logo-accent {
   color: var(--color-yellow);
 }
 
 .navbar__logo-sub {
   font-family: var(--font-display);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--color-yellow);
+  position: absolute;
+  bottom: -14px;
+  left: 0;
   white-space: nowrap;
-  margin-top: 1px;
 }
 
 .navbar__links {
@@ -1022,48 +1009,37 @@
 
 .footer__logo {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  align-items: baseline;
+  gap: 0;
+  flex-wrap: wrap;
   text-decoration: none;
   position: relative;
   margin-bottom: 24px;
 }
 
-.footer__logo-photo {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--color-yellow);
-  flex-shrink: 0;
-}
-
-.footer__logo-text-wrap {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__logo-name {
   font-family: var(--font-display);
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 900;
   color: var(--color-text);
-  line-height: 1.1;
+  line-height: 1;
 }
 
-.footer__logo-el {
+.footer__logo-accent {
   color: var(--color-yellow);
 }
 
 .footer__logo-sub {
   font-family: var(--font-display);
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 700;
-  letter-spacing: 3.5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--color-yellow);
+  position: absolute;
+  bottom: -12px;
+  left: 0;
   white-space: nowrap;
-  margin-top: 1px;
 }
 
 .footer__desc {
@@ -1250,18 +1226,14 @@
     display: flex;
   }
 
-  .navbar__logo-photo {
-    width: 42px;
-    height: 42px;
-  }
-
   .navbar__logo-name {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .navbar__logo-sub {
-    font-size: 8px;
-    letter-spacing: 3px;
+    font-size: 7px;
+    letter-spacing: 2.5px;
+    bottom: -11px;
   }
 
   .navbar__mobile-menu {

@@ -5,17 +5,10 @@ export default function FooterSection() {
         <div className="footer__grid">
           <div className="footer__brand">
             <a href="#" className="footer__logo">
-              <img
-                src="/images/rafa-electrofacil.png"
-                alt="Rafa Electro Facil"
-                className="footer__logo-photo"
-              />
-              <div className="footer__logo-text-wrap">
-                <span className="footer__logo-name">
-                  <span className="footer__logo-el">Rafa</span> Electro Facil
-                </span>
-                <span className="footer__logo-sub">#VENDEMEJOR</span>
-              </div>
+              <span className="footer__logo-name">
+                <span className="footer__logo-accent">Rafa</span> Electro Facil
+              </span>
+              <span className="footer__logo-sub">#VENDEMEJOR</span>
             </a>
             <p className="footer__desc">Rafa Electro Facil — La tienda #1 en electromuebles. Vende Mejor. 4 sucursales en Azua, Barahona, San Juan y Padre las Casas.</p>
           </div>
