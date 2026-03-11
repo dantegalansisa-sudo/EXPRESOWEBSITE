@@ -29,15 +29,15 @@ export default function Navbar() {
       <div className="navbar__inner">
         <a href="#" className="navbar__logo">
           <img
-            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=200&q=80"
-            alt="Comercial El Expreso"
+            src="/images/rafa-electrofacil.png"
+            alt="Rafa Electro Facil"
             className="navbar__logo-photo"
           />
           <div className="navbar__logo-text-wrap">
             <span className="navbar__logo-name">
-              <span className="navbar__logo-el">El</span> Expreso
+              <span className="navbar__logo-el">Rafa</span> Electro Facil
             </span>
-            <span className="navbar__logo-sub">COMERCIAL</span>
+            <span className="navbar__logo-sub">#VENDEMEJOR</span>
           </div>
         </a>
 
@@ -50,7 +50,7 @@ export default function Navbar() {
         </div>
 
         <div className="navbar__actions">
-          <MagneticButton href="https://wa.me/18095213546" className="btn-primary navbar__cta">
+          <MagneticButton href="https://wa.me/18097024596" className="btn-primary navbar__cta">
             Cotizar Ahora
           </MagneticButton>
         </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="https://wa.me/18095213546" target="_blank" rel="noopener noreferrer" className="btn-primary navbar__mobile-cta" onClick={() => setMenuOpen(false)}>
+          <a href="https://wa.me/18097024596" target="_blank" rel="noopener noreferrer" className="btn-primary navbar__mobile-cta" onClick={() => setMenuOpen(false)}>
             Cotizar Ahora
           </a>
         </motion.div>

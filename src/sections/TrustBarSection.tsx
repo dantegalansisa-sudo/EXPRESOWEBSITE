@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 
 const items = [
-  { icon: '🏪', text: '3 Sucursales' },
-  { icon: '💰', text: 'Precios Imbatibles' },
-  { icon: '⏰', text: 'Atención Personalizada' },
-  { icon: '🔌', text: 'Electrodomésticos & Más' },
+  { icon: '🏪', text: '4 Sucursales' },
+  { icon: '💰', text: '#VendeMejor' },
+  { icon: '🏆', text: 'La #1 en Azua' },
+  { icon: '🔌', text: 'Electromuebles & Más' },
 ];
 
 export default function TrustBarSection() {

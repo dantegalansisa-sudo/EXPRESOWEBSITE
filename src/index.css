@@ -3,24 +3,21 @@
   --color-bg:           #1A1A2E;
   --color-bg-surface:   #22223A;
   --color-bg-elevated:  #2C2C48;
-  --color-bg-light:     #FFFDF5;
+  --color-bg-light:     #F5FFF5;
 
-  /* Amarillo/Dorado — del logo */
-  --color-yellow:       #FFD600;
-  --color-yellow-dark:  #F5C400;
-  --color-yellow-glow:  rgba(255, 214, 0, 0.15);
+  /* Verde — del logo Rafa */
+  --color-yellow:       #4CAF50;
+  --color-yellow-dark:  #388E3C;
+  --color-yellow-glow:  rgba(76, 175, 80, 0.15);
 
-  /* Rojo acento — del logo */
-  --color-red:          #E53935;
-  --color-red-light:    #FF5252;
-  --color-red-glow:     rgba(229, 57, 53, 0.15);
-
-  /* Azul acento secundario — del logo */
-  --color-blue:         #1565C0;
+  /* Naranja acento — del logo Rafa */
+  --color-red:          #FF6D00;
+  --color-red-light:    #FF9100;
+  --color-red-glow:     rgba(255, 109, 0, 0.15);
 
   /* Gradientes */
-  --gradient-yellow:    linear-gradient(135deg, #FFD600 0%, #FFEB3B 100%);
-  --gradient-red:       linear-gradient(135deg, #E53935 0%, #FF5252 100%);
+  --gradient-yellow:    linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%);
+  --gradient-red:       linear-gradient(135deg, #FF6D00 0%, #FF9100 100%);
   --gradient-hero:      linear-gradient(135deg, #1A1A2E 0%, #22223A 100%);
   --gradient-card:      linear-gradient(145deg, #22223A 0%, #2C2C48 100%);
 
@@ -31,15 +28,15 @@
 
   /* Bordes */
   --color-border:       rgba(255,255,255,0.07);
-  --color-border-yellow: rgba(255, 214, 0, 0.25);
+  --color-border-yellow: rgba(76, 175, 80, 0.25);
 
   /* Sombras */
   --shadow-card:        0 8px 32px rgba(0,0,0,0.3);
-  --shadow-yellow:      0 0 32px rgba(255, 214, 0, 0.2);
+  --shadow-yellow:      0 0 32px rgba(76, 175, 80, 0.2);
   --shadow-product:     0 24px 60px rgba(0,0,0,0.5);
 
   /* RGB para cursor */
-  --color-primary-rgb:  255, 214, 0;
+  --color-primary-rgb:  76, 175, 80;
 
   /* Tipografías */
   --font-display: 'Outfit', system-ui, sans-serif;
@@ -79,7 +76,7 @@ body {
 img { max-width: 100%; display: block; }
 a { text-decoration: none; color: inherit; }
 
-/* CURSOR — Amarillo Expreso */
+/* CURSOR — Verde Rafa */
 .cursor-dot {
   position: fixed; top: 0; left: 0;
   width: 8px; height: 8px; border-radius: 50%;
@@ -133,7 +130,7 @@ a { text-decoration: none; color: inherit; }
 /* BUTTONS */
 .btn-primary {
   background: var(--gradient-yellow);
-  color: #1A1A2E;
+  color: #fff;
   font-family: var(--font-display);
   font-size: 15px; font-weight: 700;
   padding: 14px 32px; border-radius: 100px;
@@ -160,8 +157,8 @@ a { text-decoration: none; color: inherit; }
   50%      { transform: translateY(-12px); }
 }
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(255,214,0,0.2); }
-  50%      { box-shadow: 0 0 40px rgba(255,214,0,0.45); }
+  0%, 100% { box-shadow: 0 0 20px rgba(76,175,80,0.2); }
+  50%      { box-shadow: 0 0 40px rgba(76,175,80,0.45); }
 }
 
 /* MOBILE */

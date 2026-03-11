@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function WhatsAppButton() {
   const whatsappUrl =
-    'https://wa.me/18095213546?text=Hola%20Comercial%20El%20Expreso!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20productos%20y%20precios.';
+    'https://wa.me/18097024596?text=Hola%20Rafa%20Electro%20Facil!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20productos%20y%20precios.';
 
   return (
     <motion.a

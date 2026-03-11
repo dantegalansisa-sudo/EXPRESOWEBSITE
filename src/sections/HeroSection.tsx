@@ -18,21 +18,21 @@ export default function HeroSection() {
 
       <div className="hero__content">
         <motion.span className="hero__eyebrow" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1, ease: EASINGS.premium }}>
-          ✦ Electrodomésticos &amp; Muebles · Azua, RD
+          ✦ Tienda de Muebles &amp; Electrodomésticos · #VendeMejor
         </motion.span>
 
         <RevealText tag="h1" className="hero__title" delay={0.2} immediate>
-          Todo Para Tu Hogar Al Mejor Precio.
+          La #1 En Electromuebles De Azua.
         </RevealText>
 
         <motion.p className="hero__subtitle" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.7, ease: EASINGS.smooth }}>
-          <em>Tu comercial de confianza en Azua.</em>
+          <em>Rafa Electro Facil — Vende Mejor.</em>
           <br />
-          Electrodomésticos, muebles y más. Sucursales en Las Charcas y Estebanía.
+          4 sucursales: Azua, Barahona, San Juan y Padre las Casas.
         </motion.p>
 
         <motion.div className="hero__actions" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.9, ease: EASINGS.smooth }}>
-          <MagneticButton href="https://wa.me/18095213546" className="btn-primary">
+          <MagneticButton href="https://wa.me/18097024596" className="btn-primary">
             Ver Productos →
           </MagneticButton>
           <MagneticButton href="#categorias" className="btn-ghost">
@@ -44,8 +44,8 @@ export default function HeroSection() {
           <motion.div className="hero__delivery-badge-inner" animate={{ scale: [1, 1.04, 1] }} transition={{ repeat: Infinity, duration: 2.5, ease: 'easeInOut' }}>
             <span className="hero__delivery-icon">🏪</span>
             <div className="hero__delivery-text">
-              <strong>3 Sucursales en Azua</strong>
-              <span>Las Charcas · Estebanía · Centro</span>
+              <strong>4 Sucursales en RD</strong>
+              <span>Azua · Barahona · San Juan · Padre las Casas</span>
             </div>
           </motion.div>
         </motion.div>
@@ -54,7 +54,7 @@ export default function HeroSection() {
       <motion.div className="hero__product-image" style={{ y: heroImgY, scale: heroImgScale }}>
         <motion.img
           src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=85"
-          alt="Electrodomésticos modernos"
+          alt="Muebles y electrodomésticos modernos"
           className="hero__img"
           initial={{ opacity: 0, x: 80, scale: 1.05 }}
           animate={{ opacity: 1, x: 0, scale: 1 }}
@@ -64,8 +64,8 @@ export default function HeroSection() {
 
       <motion.div className="hero__floating-card" initial={{ opacity: 0, x: 60, y: 20 }} animate={{ opacity: 1, x: 0, y: 0 }} transition={{ delay: 1.4, duration: 0.8, ease: EASINGS.premium }}>
         <motion.div animate={{ y: [0, -12, 0] }} transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}>
-          <div className="fcard__tag">Lo Más Buscado</div>
-          <div className="fcard__name">Nevera Inverter</div>
+          <div className="fcard__tag">Lo Más Vendido</div>
+          <div className="fcard__name">Sala Completa</div>
           <div className="fcard__price">Precio Especial</div>
           <div className="fcard__colors">
             <span className="fcolor fcolor--silver" />

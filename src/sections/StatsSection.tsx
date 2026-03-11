@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import AnimatedCounter from '../components/AnimatedCounter';
 
 const stats = [
-  { number: 1918, suffix: '+', label: 'Seguidores en Instagram' },
-  { number: 3, suffix: '', label: 'Sucursales en Azua' },
-  { number: 117, suffix: '+', label: 'Publicaciones' },
+  { number: 28600, suffix: '+', label: 'Seguidores en Instagram' },
+  { number: 4, suffix: '', label: 'Sucursales en RD' },
+  { number: 776, suffix: '+', label: 'Publicaciones' },
   { number: 6, suffix: '', label: 'Categorías de Productos' },
 ];
 

@@ -12,8 +12,8 @@ export default function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Hola Comercial El Expreso! Soy ${form.nombre}. Tel: ${form.telefono}. Me interesa: ${form.producto}. ${form.mensaje}`;
-    window.open(`https://wa.me/18095213546?text=${encodeURIComponent(text)}`, '_blank');
+    const text = `Hola Rafa Electro Facil! Soy ${form.nombre}. Tel: ${form.telefono}. Me interesa: ${form.producto}. ${form.mensaje}`;
+    window.open(`https://wa.me/18097024596?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
@@ -34,15 +34,15 @@ export default function ContactSection() {
               </motion.div>
               <motion.div className="contact__detail" initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
                 <span className="contact__detail-icon">📞</span>
-                <div><strong>Teléfonos</strong><p>(809) 521-3546 · (809) 521-9325 · (809) 521-9783</p></div>
+                <div><strong>Teléfonos</strong><p>(809) 521-3633 · (809) 524-5008</p></div>
               </motion.div>
               <motion.div className="contact__detail" initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.3 }}>
                 <span className="contact__detail-icon">🏪</span>
-                <div><strong>Sucursales</strong><p>Azua Centro · Las Charcas · Estebanía</p></div>
+                <div><strong>Sucursales</strong><p>Azua · Barahona · San Juan · Padre las Casas</p></div>
               </motion.div>
               <motion.div className="contact__detail" initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }}>
                 <span className="contact__detail-icon">📸</span>
-                <div><strong>Instagram</strong><p>@comercialelexpreso</p></div>
+                <div><strong>Instagram</strong><p>@rafaelectrofacil</p></div>
               </motion.div>
             </div>
           </div>
